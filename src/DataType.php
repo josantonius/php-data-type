@@ -39,7 +39,5 @@ class DataType {
         }
 
         return array_map('self::objectToArray', (array) $object);
-
     }
-
 }

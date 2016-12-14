@@ -36,7 +36,6 @@ class DataTypeTest {
         $array  = DataType::objectToArray($object);
 
         echo '<pre>'; var_dump($array); echo '</pre>';
-
     }
 
     /**
@@ -55,7 +54,5 @@ class DataTypeTest {
         $object->url   = 'https://github.com/Josantonius/PHP-DataType';
         
         return $object;   
-
     }
-
 }
