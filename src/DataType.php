@@ -10,12 +10,12 @@
  * @license    https://opensource.org/licenses/MIT - The MIT License (MIT)
  * @version    1.0.0
  * @link       https://github.com/Josantonius/PHP-DataType
- * @since      File available since 1.0.0 - Update: 2016-12-14
+ * @since      File available since 1.0.0 - Update: 2016-12-19
  */
 
 namespace Josantonius\DataType;
 
-use Josantonius\DataType\Exception\DataTypeException;
+# use Josantonius\DataType\Exception\DataTypeException;
 
 /**
  * Data type handler.
