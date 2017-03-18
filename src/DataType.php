@@ -2,15 +2,11 @@
 /**
  * PHP simple library for managing of data types.
  * 
- * @category   JST
- * @package    DataType
- * @subpackage DataType
- * @author     Josantonius - info@josantonius.com
- * @copyright  Copyright (c) 2016 JST PHP Framework
+ * @author     Josantonius - hello@josantonius.com
+ * @copyright  Copyright (c) 2016
  * @license    https://opensource.org/licenses/MIT - The MIT License (MIT)
- * @version    1.1.0
  * @link       https://github.com/Josantonius/PHP-DataType
- * @since      File available since 1.0.0 - Update: 2017-01-30
+ * @since      1.0.0
  */
 
 namespace Josantonius\DataType;
