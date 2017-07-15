@@ -1,6 +1,6 @@
 {
     "name":        "josantonius/datatype",
-    "version":     "1.1.1",
+    "version":     "1.1.2",
     "type":        "library",
     "description": "PHP simple library for managing of data types.",
     "keywords": [
