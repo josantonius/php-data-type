@@ -4,7 +4,7 @@
 
 [English version](README.md)
 
-Librería PHP para manejo de tipo de datos.
+Biblioteca PHP para manejo de tipo de datos.
 
 ---
 
@@ -24,7 +24,7 @@ Librería PHP para manejo de tipo de datos.
 <p align="center"><strong>Echa un vistazo al código</strong></p>
 
 <p align="center">
-  <a href="" title="Echa un vistazo al código">
+  <a href="https://youtu.be/V6gya9Y8h2U" title="Echa un vistazo al código">
   	<img src="https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/resources/youtube-thumbnail.jpg">
   </a>
 </p>
@@ -53,7 +53,7 @@ Esta biblioteca es soportada por versiones de PHP 5.6 o superiores y es compatib
 
 ### Cómo empezar y ejemplos
 
-Para utilizar esta librería, simplemente:
+Para utilizar esta biblioteca, simplemente:
 
 ```php
 require __DIR__ . '/vendor/autoload.php';
@@ -62,14 +62,14 @@ use Josantonius\DataType\DataType;
 ```
 ### Métodos disponibles
 
-Métodos disponibles en esta librería:
+Métodos disponibles en esta biblioteca:
 
 ```php
 DataType::objectToArray();
 ```
 ### Uso
 
-Ejemplo de uso para esta librería:
+Ejemplo de uso para esta biblioteca:
 
 ```php
 <?php
@@ -109,7 +109,7 @@ $loader->addPsr4('Josantonius\\DataType\\Tests\\', __DIR__ . '/vendor/josantoniu
 
 use Josantonius\DataType\Tests\DataTypeTest;
 ```
-Métodos de prueba disponibles en esta librería:
+Métodos de prueba disponibles en esta biblioteca:
 
 ```php
 DataTypeTest::testObjectToArray();
