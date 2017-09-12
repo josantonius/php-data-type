@@ -20,6 +20,8 @@ class DataType {
 
     /**
      * Convert object to array.
+     *
+     * @since 1.0.0
      * 
      * @param object $object → variable of the object
      *

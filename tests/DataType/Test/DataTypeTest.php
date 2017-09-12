@@ -25,8 +25,10 @@ class DataTypeTest extends TestCase {
      * Convert object to array.
      *
      * @since 1.1.3
+     *
+     * @return void
      */
-    public static function testObjectToArray() {
+    public function testObjectToArray() {
 
         $object = new \stdClass();
 
@@ -34,7 +36,7 @@ class DataTypeTest extends TestCase {
         $object->email = 'info@josantonius.com';
         $object->url   = 'https://github.com/Josantonius/PHP-DataType';
 
-        $this->assertContainsOnly('array',
+        $this->assertInternalType('array',
         
             DataType::objectToArray($object)
         );

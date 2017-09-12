@@ -12,14 +12,14 @@
          bootstrap="tests/bootstrap.php"
 >
     <testsuites>
-        <testsuite name="Asset Test Suite">
-            <directory>tests/Asset</directory>
+        <testsuite name="DataType Test Suite">
+            <directory>tests/DataType</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory>src/Asset</directory>
+            <directory>src/DataType</directory>
         </whitelist>
     </filter>
 </phpunit>

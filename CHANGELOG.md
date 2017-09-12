@@ -20,7 +20,6 @@
 
 * Added `Josantonius\DataType\Test\DataTypeTest` class.
 * Added `Josantonius\DataType\Test\DataTypeTest::testObjectToArray()` method.
-* Added `Josantonius\DataType\Test\DataTypeTest::testCreateObject()` method.
 
 ## 1.1.2 - 2017-07-16
 
