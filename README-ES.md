@@ -1,6 +1,6 @@
 # PHP DataType library
 
-[![Latest Stable Version](https://poser.pugx.org/josantonius/datatype/v/stable)](https://packagist.org/packages/josantonius/datatype) [![Total Downloads](https://poser.pugx.org/josantonius/datatype/downloads)](https://packagist.org/packages/josantonius/datatype) [![Latest Unstable Version](https://poser.pugx.org/josantonius/datatype/v/unstable)](https://packagist.org/packages/josantonius/datatype) [![License](https://poser.pugx.org/josantonius/datatype/license)](https://packagist.org/packages/josantonius/datatype)
+[![Latest Stable Version](https://poser.pugx.org/josantonius/datatype/v/stable)](https://packagist.org/packages/josantonius/datatype) [![Total Downloads](https://poser.pugx.org/josantonius/datatype/downloads)](https://packagist.org/packages/josantonius/datatype) [![Latest Unstable Version](https://poser.pugx.org/josantonius/datatype/v/unstable)](https://packagist.org/packages/josantonius/datatype) [![License](https://poser.pugx.org/josantonius/datatype/license)](https://packagist.org/packages/josantonius/datatype) [![Travis](https://travis-ci.org/Josantonius/PHP-DataType.svg)](https://github.com/Josantonius/PHP-DataType)
 
 [English version](README.md)
 
@@ -18,16 +18,6 @@ Biblioteca PHP para manejo de tipo de datos.
 - [Repositorio](#repositorio)
 - [Licencia](#licencia)
 - [Copyright](#copyright)
-
----
-
-<p align="center"><strong>Echa un vistazo al código</strong></p>
-
-<p align="center">
-  <a href="https://youtu.be/V6gya9Y8h2U" title="Echa un vistazo al código">
-  	<img src="https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/resources/youtube-thumbnail.jpg">
-  </a>
-</p>
 
 ---
 
@@ -99,22 +89,13 @@ array(3) {
 
 ### Tests 
 
-Para utilizar la clase de [pruebas](tests), simplemente:
+Para ejecutar las [pruebas](tests/DataType) simplemente:
 
-```php
-<?php
-$loader = require __DIR__ . '/vendor/autoload.php';
+    $ git clone https://github.com/Josantonius/PHP-DataType.git
+    
+    $ cd PHP-DataType
 
-$loader->addPsr4('Josantonius\\DataType\\Tests\\', __DIR__ . '/vendor/josantonius/datatype/tests');
-
-use Josantonius\DataType\Tests\DataTypeTest;
-```
-Métodos de prueba disponibles en esta biblioteca:
-
-```php
-DataTypeTest::testObjectToArray();
-DataTypeTest::testCreateObject();
-```
+    $ phpunit
 
 ### Contribuir
 1. Comprobar si hay incidencias abiertas o abrir una nueva para iniciar una discusión en torno a un fallo o función.

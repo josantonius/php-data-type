@@ -1,6 +1,6 @@
 {
     "name":        "josantonius/datatype",
-    "version":     "1.1.2",
+    "version":     "1.1.3",
     "type":        "library",
     "description": "PHP simple library for managing of data types.",
     "keywords": [
@@ -20,6 +20,8 @@
         }
     ],
     "support": {
+        "issues": "https://github.com/josantonius/php-datatype/issues",
+        "forum":  "http://stackoverflow.com/tags/josantonius/php-datatype",
         "source": "https://github.com/josantonius/php-datatype"
     },
     "config": {
@@ -29,19 +31,20 @@
     "require": {
         "php": "^5.6 || ^7.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "5.7.*"
+    },
     "autoload": {
         "psr-4": {
-            "Josantonius\\DataType\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Josantonius\\DataType\\Tests\\": "tests/"
+            "Josantonius\\DataType\\": "src/DataType/"
         }
     },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
         }
+    },
+    "scripts": {
+        "test": "phpunit"
     }
 }
