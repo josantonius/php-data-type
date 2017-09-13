@@ -1,6 +1,6 @@
 # PHP DataType library
 
-[![Latest Stable Version](https://poser.pugx.org/josantonius/datatype/v/stable)](https://packagist.org/packages/josantonius/datatype) [![Total Downloads](https://poser.pugx.org/josantonius/datatype/downloads)](https://packagist.org/packages/josantonius/datatype) [![Latest Unstable Version](https://poser.pugx.org/josantonius/datatype/v/unstable)](https://packagist.org/packages/josantonius/datatype) [![License](https://poser.pugx.org/josantonius/datatype/license)](https://packagist.org/packages/josantonius/datatype) [![Travis](https://travis-ci.org/Josantonius/PHP-DataType.svg)](https://github.com/Josantonius/PHP-DataType)
+[![Latest Stable Version](https://poser.pugx.org/josantonius/datatype/v/stable)](https://packagist.org/packages/josantonius/datatype) [![Total Downloads](https://poser.pugx.org/josantonius/datatype/downloads)](https://packagist.org/packages/josantonius/datatype) [![Latest Unstable Version](https://poser.pugx.org/josantonius/datatype/v/unstable)](https://packagist.org/packages/josantonius/datatype) [![License](https://poser.pugx.org/josantonius/datatype/license)](https://packagist.org/packages/josantonius/datatype) [![Travis](https://travis-ci.org/Josantonius/PHP-DataType.svg)](https://travis-ci.org/Josantonius/PHP-DataType)
 
 [Versión en español](README-ES.md)
 
@@ -89,7 +89,7 @@ array(3) {
 
 ### Tests 
 
-To run [tests](tests/DataType) simply:
+To run [tests](tests/DataType/test) simply:
 
     $ git clone https://github.com/Josantonius/PHP-DataType.git
     
