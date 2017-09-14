@@ -89,7 +89,7 @@ array(3) {
 
 ### Tests 
 
-Para ejecutar las [pruebas](tests/DataType/test) simplemente:
+Para ejecutar las [pruebas](tests/DataType/Test) simplemente:
 
     $ git clone https://github.com/Josantonius/PHP-DataType.git
     
