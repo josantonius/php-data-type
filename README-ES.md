@@ -133,6 +133,7 @@ Ejecutar todas las pruebas anteriores:
 
 - [x] Completar tests
 - [x] Mejorar la documentación
+- [ ] Agregar nuevos métodos
 
 ### Contribuir
 
