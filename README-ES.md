@@ -58,7 +58,7 @@ Métodos disponibles en esta biblioteca:
 DataType::objectToArray($object);
 ```
 
-| Attribute | Description | Type | Required | Default
+| Atributo | Descripción | Tipo | Requerido | Predeterminado
 | --- | --- | --- | --- | --- |
 | $object| Objeto. | object | Yes | |
 
