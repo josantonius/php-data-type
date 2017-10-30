@@ -22,15 +22,15 @@ Biblioteca PHP para manejo de tipo de datos.
 
 ---
 
-### Requisitos
+## Requisitos
 
-Esta clase es soportada por versiones de `PHP 5.6` o superiores y es compatible con versiones de `HHVM 3.0` o superiores.
+Esta clase es soportada por versiones de **PHP 5.6** o superiores y es compatible con versiones de **HHVM 3.0** o superiores.
 
-### Instalación 
+## Instalación 
 
 La mejor forma de instalar esta extensión es a través de [Composer](http://getcomposer.org/download/).
 
-Para instalar `PHP DataType library`, simplemente escribe:
+Para instalar **PHP DataType library**, simplemente escribe:
 
     $ composer require Josantonius/DataType
 
@@ -48,11 +48,11 @@ O **instalarlo manualmente**:
 
     $ wget https://raw.githubusercontent.com/Josantonius/PHP-DataType/master/src/DataType.php
 
-### Métodos disponibles
+## Métodos disponibles
 
 Métodos disponibles en esta biblioteca:
 
-`Convertir objeto en array:`
+### - Convertir objeto en array:
 
 ```php
 DataType::objectToArray($object);
@@ -64,9 +64,9 @@ DataType::objectToArray($object);
 
 **# Return** (array) → objeto convertido a array
 
-### Cómo empezar
+## Cómo empezar
 
-Para utilizar esta clase con `Composer`:
+Para utilizar esta clase con **Composer**:
 
 ```php
 require __DIR__ . '/vendor/autoload.php';
@@ -74,7 +74,7 @@ require __DIR__ . '/vendor/autoload.php';
 use Josantonius\DataType\DataType;
 ```
 
-Si la instalaste `manualmente`, utiliza:
+Si la instalaste **manualmente**, utiliza:
 
 ```php
 require_once __DIR__ . '/DataType.php';
@@ -82,7 +82,7 @@ require_once __DIR__ . '/DataType.php';
 use Josantonius\DataType\DataType;
 ```
 
-### Uso
+## Uso
 
 Ejemplo de uso para esta biblioteca:
 
@@ -107,7 +107,7 @@ array(3) {
 */
 ```
 
-### Tests 
+## Tests 
 
 Para ejecutar las [pruebas](tests) necesitarás [Composer](http://getcomposer.org/download/) y seguir los siguientes pasos:
 
@@ -129,13 +129,13 @@ Ejecutar todas las pruebas anteriores:
 
     $ composer tests
 
-### ☑ Tareas pendientes
+## ☑ Tareas pendientes
 
 - [x] Completar tests
 - [x] Mejorar la documentación
 - [ ] Agregar nuevos métodos
 
-### Contribuir
+## Contribuir
 
 1. Comprobar si hay incidencias abiertas o abrir una nueva para iniciar una discusión en torno a un fallo o función.
 1. Bifurca la rama del repositorio en GitHub para iniciar la operación de ajuste.
@@ -145,15 +145,15 @@ Ejecutar todas las pruebas anteriores:
 
 Esto está pensado para proyectos grandes y de larga duración.
 
-### Repositorio
+## Repositorio
 
 Los archivos de este repositorio se crearon y subieron automáticamente con [Reposgit Creator](https://github.com/Josantonius/BASH-Reposgit).
 
-### Licencia
+## Licencia
 
 Este proyecto está licenciado bajo **licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.
 
-### Copyright
+## Copyright
 
 2016 - 2017 Josantonius, [josantonius.com](https://josantonius.com/)
 
