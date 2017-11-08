@@ -8,7 +8,6 @@
  * @link      https://github.com/Josantonius/PHP-DataType
  * @since     1.0.0
  */
-
 namespace Josantonius\DataType;
 
 /**
@@ -29,9 +28,10 @@ class DataType
      */
     public static function objectToArray($object)
     {
-        if (!is_object($object) && !is_array($object)) {
+        if (! is_object($object) && ! is_array($object)) {
             return $object;
         }
+
         return array_map('self::objectToArray', (array) $object);
     }
 }

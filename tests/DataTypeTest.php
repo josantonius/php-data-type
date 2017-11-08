@@ -8,7 +8,6 @@
  * @link      https://github.com/Josantonius/PHP-DataType
  * @since     1.1.3
  */
-
 namespace Josantonius\DataType;
 
 use PHPUnit\Framework\TestCase;
@@ -24,16 +23,14 @@ class DataTypeTest extends TestCase
      * Convert object to array.
      *
      * @since 1.1.3
-     *
-     * @return void
      */
     public function testObjectToArray()
     {
         $object = new \stdClass();
 
-        $object->name  = 'Josantonius';
+        $object->name = 'Josantonius';
         $object->email = 'info@josantonius.com';
-        $object->url   = 'https://github.com/Josantonius/PHP-DataType';
+        $object->url = 'https://github.com/Josantonius/PHP-DataType';
 
         $this->assertInternalType(
             'array',
