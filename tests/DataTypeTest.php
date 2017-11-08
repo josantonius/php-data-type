@@ -17,8 +17,40 @@ use PHPUnit\Framework\TestCase;
  *
  * @since 1.1.3
  */
-class DataTypeTest extends TestCase
+final class DataTypeTest extends TestCase
 {
+    /**
+     * DataType instance.
+     *
+     * @since 1.1.5
+     *
+     * @var object
+     */
+    protected $DataType;
+
+    /**
+     * Set up.
+     *
+     * @since 1.1.5
+     */
+    public function setUp()
+    {
+        parent::setUp();
+
+        $this->DataType = new DataType;
+    }
+
+    /**
+     * Check if it is an instance of DataType.
+     *
+     * @since 1.1.5
+     */
+    public function testIsInstanceOfDataType()
+    {
+        $actual = $this->DataType;
+        $this->assertInstanceOf('Josantonius\DataType\DataType', $actual);
+    }
+
     /**
      * Convert object to array.
      *
