@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.1.6 - 2018-01-06
+
+* The tests were fixed.
+
+* Changes in documentation.
+
 ## 1.1.5 - 2017-11-08
 
 * Implemented `PHP Mess Detector` to detect inconsistencies in code styles.
@@ -74,13 +80,9 @@
 * Added `Josantonius\DataType\DataType` class.
 * Added `Josantonius\DataType\DataType::objectToArray()` method.
 
-## 1.0.0 - 2016-12-14
-
 * Added `Josantonius\DataType\Exception\DataTypeException` class.
 * Added `Josantonius\DataType\Exception\Exceptions` abstract class.
 * Added `Josantonius\DataType\Exception\DataTypeException->__construct()` method.
-
-## 1.0.0 - 2016-12-14
 
 * Added `Josantonius\DataType\Tests\DataTypeTest` class.
 * Added `Josantonius\DataType\Tests\DataTypeTest::testObjectToArray()` method.

@@ -3,7 +3,7 @@
  * PHP simple library for managing of data types.
  *
  * @author    Josantonius <hello@josantonius.com>
- * @copyright 2016 - 2017 (c) Josantonius - PHP-DataType
+ * @copyright 2016 - 2018 (c) Josantonius - PHP-DataType
  * @license   https://opensource.org/licenses/MIT - The MIT License (MIT)
  * @link      https://github.com/Josantonius/PHP-DataType
  * @since     1.1.3
@@ -14,8 +14,6 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * Tests class for DataType library.
- *
- * @since 1.1.3
  */
 final class DataTypeTest extends TestCase
 {
@@ -47,17 +45,16 @@ final class DataTypeTest extends TestCase
      */
     public function testIsInstanceOfDataType()
     {
-        $actual = $this->DataType;
-        $this->assertInstanceOf('Josantonius\DataType\DataType', $actual);
+        $this->assertInstanceOf('Josantonius\DataType\DataType', $this->DataType);
     }
 
     /**
      * Convert object to array.
-     *
-     * @since 1.1.3
      */
     public function testObjectToArray()
     {
+        $datatype = $this->DataType;
+
         $object = new \stdClass();
 
         $object->name = 'Josantonius';
@@ -66,7 +63,7 @@ final class DataTypeTest extends TestCase
 
         $this->assertInternalType(
             'array',
-            DataType::objectToArray($object)
+            $datatype::objectToArray($object)
         );
     }
 }
