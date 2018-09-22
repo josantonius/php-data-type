@@ -22,15 +22,6 @@ php:
   - 7.2
   - hhvm
   - nightly
-  
-matrix:
-  fast_finish: true
-  include:
-    - php: 7.1
-      env: PHPCS=PSR2
-
-  allow_failures:
-    - php: nightly
 
 before_script:
   - export PATH="./vendor/bin:$PATH"
