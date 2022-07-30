@@ -1,6 +1,7 @@
-# PHP DataType library (DEPRECATED)
+# PHP DataType library
 
-[![Latest Stable Version](https://poser.pugx.org/josantonius/DataType/v/stable)](https://packagist.org/packages/josantonius/DataType) [![Latest Unstable Version](https://poser.pugx.org/josantonius/DataType/v/unstable)](https://packagist.org/packages/josantonius/DataType) [![License](https://poser.pugx.org/josantonius/DataType/license)](LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d215fe4b6f2040e492d9903294aff387)](https://www.codacy.com/app/Josantonius/PHP-DataType?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Josantonius/PHP-DataType&amp;utm_campaign=Badge_Grade) [![Total Downloads](https://poser.pugx.org/josantonius/DataType/downloads)](https://packagist.org/packages/josantonius/DataType) [![Travis](https://travis-ci.org/Josantonius/PHP-DataType.svg)](https://travis-ci.org/Josantonius/PHP-DataType) [![PSR2](https://img.shields.io/badge/PSR-2-1abc9c.svg)](http://www.php-fig.org/psr/psr-2/) [![PSR4](https://img.shields.io/badge/PSR-4-9b59b6.svg)](http://www.php-fig.org/psr/psr-4/) [![CodeCov](https://codecov.io/gh/Josantonius/PHP-DataType/branch/master/graph/badge.svg)](https://codecov.io/gh/Josantonius/PHP-DataType)
+[![Latest Stable Version](https://poser.pugx.org/josantonius/DataType/v/stable)](https://packagist.org/packages/josantonius/DataType)
+[![License](https://poser.pugx.org/josantonius/DataType/license)](LICENSE)
 
 **This library will no longer be supported. Alternatively, you can use the** [Validate](https://github.com/Josantonius/php-validate) **library.**
 
@@ -16,11 +17,8 @@ PHP simple library for managing of data types.
 - [Quick Start](#quick-start)
 - [Usage](#usage)
 - [Tests](#tests)
-- [TODO](#-todo)
-- [Contribute](#contribute)
-- [Repository](#repository)
+- [Sponsor](#Sponsor)
 - [License](#license)
-- [Copyright](#copyright)
 
 ---
 
@@ -34,27 +32,27 @@ The preferred way to install this extension is through [Composer](http://getcomp
 
 To install **PHP DataType library**, simply:
 
-    $ composer require Josantonius/DataType
+    composer require Josantonius/DataType
 
 The previous command will only install the necessary files, if you prefer to **download the entire source code** you can use:
 
-    $ composer require Josantonius/DataType --prefer-source
+    composer require Josantonius/DataType --prefer-source
 
 You can also **clone the complete repository** with Git:
 
-  $ git clone https://github.com/Josantonius/PHP-DataType.git
+  $ git clone <https://github.com/Josantonius/PHP-DataType.git>
 
 Or **install it manually**:
 
 [Download DataType.php](https://raw.githubusercontent.com/Josantonius/PHP-DataType/master/src/DataType.php):
 
-    $ wget https://raw.githubusercontent.com/Josantonius/PHP-DataType/master/src/DataType.php
+    wget https://raw.githubusercontent.com/Josantonius/PHP-DataType/master/src/DataType.php
 
 ## Available Methods
 
 Available methods in this library:
 
-### - Convert object to array:
+### - Convert object to array
 
 ```php
 DataType::objectToArray($object);
@@ -109,66 +107,39 @@ array(3) {
 */
 ```
 
-## Tests 
+## Tests
 
 To run [tests](tests) you just need [composer](http://getcomposer.org/download/) and to execute the following:
 
-    $ git clone https://github.com/Josantonius/PHP-DataType.git
+    git clone https://github.com/Josantonius/PHP-DataType.git
     
-    $ cd PHP-DataType
+    cd PHP-DataType
 
-    $ composer install
+    composer install
 
 Run unit tests with [PHPUnit](https://phpunit.de/):
 
-    $ composer phpunit
+    composer phpunit
 
 Run [PSR2](http://www.php-fig.org/psr/psr-2/) code standard tests with [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer):
 
-    $ composer phpcs
+    composer phpcs
 
 Run [PHP Mess Detector](https://phpmd.org/) tests to detect inconsistencies in code style:
 
-    $ composer phpmd
+    composer phpmd
 
 Run all previous tests:
 
-    $ composer tests
+    composer tests
 
-## ☑ TODO
+## Sponsor
 
-- [ ] Add new feature.
-- [ ] Improve tests.
-- [ ] Improve documentation.
-- [ ] Refactor code for disabled code style rules. See [phpmd.xml](phpmd.xml) and [.php_cs.dist](.php_cs.dist).
-
-## Contribute
-
-If you would like to help, please take a look at the list of
-[issues](https://github.com/Josantonius/PHP-DataType/issues) or the [To Do](#-todo) checklist.
-
-**Pull requests**
-
-* [Fork and clone](https://help.github.com/articles/fork-a-repo).
-* Run the command `composer install` to install the dependencies.
-  This will also install the [dev dependencies](https://getcomposer.org/doc/03-cli.md#install).
-* Run the command `composer fix` to excute code standard fixers.
-* Run the [tests](#tests).
-* Create a **branch**, **commit**, **push** and send me a
-  [pull request](https://help.github.com/articles/using-pull-requests).
-
-## Repository
-
-The file structure from this repository was created with [PHP-Skeleton](https://github.com/Josantonius/PHP-Skeleton).
+If this project helps you to reduce your development time,
+[you can sponsor me](https://github.com/josantonius#sponsor) to support my open source work :blush:
 
 ## License
 
-This project is licensed under **MIT license**. See the [LICENSE](LICENSE) file for more info.
+This repository is licensed under the [MIT License](LICENSE).
 
-## Copyright
-
-2016 - 2018 Josantonius, [josantonius.com](https://josantonius.com/)
-
-If you find it useful, let me know :wink:
-
-You can contact me on [Twitter](https://twitter.com/Josantonius) or through my [email](mailto:hello@josantonius.com).
+Copyright © 2016-2018, [Josantonius](https://github.com/josantonius#contact)
