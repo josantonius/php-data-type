@@ -7,7 +7,7 @@ composer.lock
 composer-test.lock
 phpcbf-fixed.diff
 .php_cs.cache
-php-datatype.code-workspace
+php-data-type.code-workspace
 .repository.md
 .phpunit.result.cache
 coverage.xml
